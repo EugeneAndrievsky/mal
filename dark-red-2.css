@@ -1,0 +1,58 @@
+/* red color: #DB1C03 */
+
+body {  
+  font-size: 14px;
+}
+
+body.ownlist {
+  background: 
+    linear-gradient(to right, transparent 10%, white 30%, white 70%, transparent 90%),
+    url("https://raw.githubusercontent.com/EugeneAndrievsky/ArisAngel/master/img/img-1-mirror.jpg") left,
+    url("https://raw.githubusercontent.com/EugeneAndrievsky/ArisAngel/master/img/img-2.jpg")
+    right -100px top 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#list-container,
+
+.list-menu-float .icon-menu,
+.list-menu-float .link-list-setting,
+.list-menu-float .link-style-setting,
+
+#status-menu,
+.header-title,
+#footer-block {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.list-status-title .text,
+.list-status-title .stats a,
+.btn-menu { 
+  color: #fff !important;
+}
+
+.status-menu a,
+.btn-menu,
+#footer-block {
+  color: #DB1C03 !important;
+  text-shadow: 1px 1px 0px #550000;
+}
+
+.number,
+.data.type,
+.data.progress,
+.data.rated {
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+}
+
+.data.progress span > a,
+.data.progress i {
+  text-shadow: none;
+}
+
+.link-style-setting {
+  border-top: none !important;
+}

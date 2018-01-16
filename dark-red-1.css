@@ -1,0 +1,36 @@
+body {  
+  font-size: 14px;
+}
+
+body.ownlist {
+  background-size: cover;
+}
+
+#list-container,
+
+.list-menu-float .icon-menu,
+.list-menu-float .link-list-setting,
+.list-menu-float .link-style-setting,
+
+#status-menu,
+.header-title,
+#footer-block {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.list-status-title .text,
+.list-status-title .stats a { 
+  color: #ddd !important;
+}
+
+.status-menu a {
+  text-shadow: 1px 1px 0px #550000;
+}
+
+#footer-block {
+  text-shadow: 2px 2px 1px black
+}
+
+.link-style-setting {
+  border-top: none !important;
+}
