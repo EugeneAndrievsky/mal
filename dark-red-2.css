@@ -28,18 +28,32 @@ body.ownlist {
 }
 
 .list-status-title .text,
-.list-status-title .stats a,
-.btn-menu { 
+.list-status-title .stats a {
   color: #fff !important;
 }
 
+.header .icon-manga-list {
+  fill: #DB1C03 !important;
+}
+
+.list-table .list-table-data a.edit-disabled {
+  color: #DB1C03 !important;
+}
+
+.header a,
+.username,
+.icon-menu.mangalist,
 .status-menu a,
-.btn-menu,
 #footer-block {
   color: #DB1C03 !important;
   text-shadow: 1px 1px 0px #550000;
 }
 
+header a:hover {
+  color: #DB1C03 !important;
+}
+
+.header-menu,
 .number,
 .data.type,
 .data.progress,
